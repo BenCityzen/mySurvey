@@ -2,8 +2,7 @@
 include 'config.php';
 
 // Get all survey data
-$surveys = $conn->query("SELECT * FROM surveys")->fetchAll(PDO::FETCH_ASSOC);
-
+$surveys = $pdo->query("SELECT * FROM surveys")->fetchAll(PDO::FETCH_ASSOC);
 // Calculate statistics
 $totalSurveys = count($surveys);
 $averageAge = 0;
@@ -55,6 +54,7 @@ if ($totalSurveys > 0) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Results</title>
     <link rel="stylesheet" href="style.css">
+    <?php include 'analytics.php'; ?>
 </head>
 <body>
     <div class="container">
