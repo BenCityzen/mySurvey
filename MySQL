@@ -1,0 +1,19 @@
+CREATE DATABASE survey_db;
+USE survey_db;
+
+CREATE TABLE surveys (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    dob DATE NOT NULL,
+    contact_number VARCHAR(20) NOT NULL,
+    pizza BOOLEAN DEFAULT FALSE,
+    pasta BOOLEAN DEFAULT FALSE,
+    pap_wors BOOLEAN DEFAULT FALSE,
+    other_food VARCHAR(100),
+    movies_rating INT,
+    radio_rating INT,
+    eat_out_rating INT,
+    tv_rating INT,
+    submission_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
