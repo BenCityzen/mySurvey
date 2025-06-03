@@ -1,6 +1,6 @@
-# Lifestyle Survey Application
+#  Survey Application
 
-A simple web application for collecting and analyzing lifestyle survey data.
+A simple web application for collecting and analyzing survey data.
 
 ## Requirements
 
@@ -26,3 +26,5 @@ A simple web application for collecting and analyzing lifestyle survey data.
 1. Navigate to the application URL
 2. Click "Fill Out Survey" to complete the form
 3. Click "View Survey Results" to see aggregated data
+
+4. ![image alt](https://github.com/BenCityzen/mySurvey/blob/4815e487f76c8c9443236887d02d5b0b072ba4d7/Screenshot%202025-06-03%20115312.png)
